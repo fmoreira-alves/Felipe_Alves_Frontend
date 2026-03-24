@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+body { 
+    background-color: #F7F8FC; 
+    font-family: 'Mulish', sans-serif; 
+    color: #252733;
+}
+
+/* Sidebar */
+.sidebar { 
+    background-color: #363740; 
+    min-height: 100vh; 
+}
+.sidebar-logo { 
+    color: #A4A6B3; 
+    opacity: 0.7; 
+}
+.sidebar .nav-link { 
+    color: #A4A6B3; 
+    padding: 18px 30px; 
+    font-size: 16px;
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+.sidebar .nav-link:hover { 
+    background-color: rgba(159, 162, 180, 0.08);
+    color: #DDE2FF !important;
+    border-left: 3px solid #DDE2FF;
+}
+.sidebar-hr { 
+    border: 0;
+    border-top: 1px solid #9FA2B4;
+    opacity: 0.1; 
+}
+
+/* Header */
+.header-icon { cursor: pointer; }
+.header-profile-img { 
+    width: 44px; height: 44px; 
+    border-radius: 50%; object-fit: cover; 
+    border: 2px solid #DFE0EB; 
+}
+.header-divider { border-left: 1px solid #DFE0EB; height: 32px; }
+
+/* Cards */
+.card { 
+    border-radius: 8px; 
+    border: 1px solid #DFE0EB; 
+    background: #fff; 
+}
+.card-stat { 
+    cursor: pointer; 
+    color: #9FA2B4; 
+    transition: 0.3s; 
+    font-weight: 600;
+}
+.card-stat h3 { color: #252733; margin-top: 10px; font-weight: 700; }
+.card-stat:hover { border-color: #3751FF; color: #3751FF; }
+.card-stat:hover h3 { color: #3751FF; }
+
+/* Tickets & Tasks Section */
+.section-header-title { font-size: 19px; }
+.view-details-link { 
+    text-decoration: none; 
+    color: #3751FF; 
+    font-size: 14px; 
+    font-weight: 600; 
+}
+.ticket-label-text { font-size: 14px; color: #252733; font-weight: 600; }
+.ticket-value { font-size: 14px; color: #9FA2B4; font-weight: 600; }
+
+.task-placeholder { font-size: 14px; color: #C5C7CD; font-weight: 600; }
+.task-add-icon { cursor: pointer; color: #F0F1F7; font-size: 24px; }
+.task-check { width: 20px; height: 20px; border-radius: 50% !important; }
+.task-text { font-size: 14px; color: #252733; font-weight: 600; }
+
+/* Badges */
+.badge { 
+    border-radius: 8px; 
+    font-weight: 700; 
+    text-transform: uppercase;
+    font-size: 11px; 
+    padding: 5px 10px;
+}
+.bg-warning { background-color: #FEC400 !important; color: white !important; }
+.bg-success { background-color: #29CC97 !important; color: white !important; }
+.bg-secondary { background-color: #F0F1F7 !important; color: #9FA2B4 !important; }
+
+/* Utility */
+.text-primary { color: #3751FF !important; }

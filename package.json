@@ -1,0 +1,14 @@
+{
+  "name": "inm320-assignment-felipe",
+  "version": "1.0.0",
+  "description": "Interactive Media Design - Assignment Overview Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Felipe Alves",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
